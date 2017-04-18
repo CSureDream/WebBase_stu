@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>注册</title>
+</head>
+<body>
+	<h3>注册个人信息</h3>
+	<!-- 单行文本 -->
+	<p>
+		用户名：<input name="usename" type="text" value="" size="20" maxlength="6" />
+	</p>
+	<!-- 密码框 -->
+	<p>
+		密码： <input name="pwd" type="password" value="" size="20" maxlength="6" />
+	</p>
+	<!-- 单选按钮 -->
+	<p>
+		性别<input name="sex" type="radio" value="初值" />男 <input name="sex"
+			type="radio" value="初值" />女
+	</p>
+	<!-- 多选择 -->
+	<span>爱好 :</span>
+	<input type="checkbox" value="" />游戏
+	<input type="checkbox" value="" />运动
+	<input type="checkbox" value="" />上网
+	<input type="checkbox" value="" />聊天
+
+	<!-- 下拉选择 Select -->
+	<span>工作经验</span>
+	<select>
+		<option value="0" selected="selected">请选择</option>
+		<option value="1">1以下</option>
+		<option value="2">1-3年</option>
+		<option value="3">3年以上</option>
+
+	</select>
+	<!--textarea文本 域  -->
+	<p>个人描述</p>
+	<textarea name="text" cols="30" rows="4"></textarea>
+	<br />
+	<!-- 提交和重填 -->
+	<input name="btn" type="submit" value="提交" />
+	<input name="rest" type="reset" value="重填" />
+
+
+
+
+
+
+</body>
+</html>
