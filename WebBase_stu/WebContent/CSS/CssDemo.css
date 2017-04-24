@@ -1,21 +1,14 @@
 @CHARSET "UTF-8";
-h1 i{
-	color:red;
-}
-h3 {
-	color:red;
-	font-family: 楷体；
-	font-size:30px;
-}
-<!--class 样式表-->
-    .pp{
-    color:red;
-    font: 楷体;
+   
+class 样式表
+
+    .pp{  
+    font: 楷体 red;
     }
     p.p{
-    color:blue;
-    font: 黑体;
+    font: 黑体 blue;
     }
+ <!--id 样式表 -->
  
     #id003{
     background-color: yellow;
@@ -23,15 +16,20 @@ h3 {
     p#id002{
     background-color: yellow;
     } 
-    p i{
-    color:blue;
-    }  
+ <!--情景标签 -->  
+  
     p b{
     color:red;
     }
     ol li{
     color:red;
     }
-    ul li{
-    color:blue;
+    
+  
+  span{
+  font-style: italic;  
     }
+     div{
+  font-family:楷体;
+  font-size: 50px;  
+  } 

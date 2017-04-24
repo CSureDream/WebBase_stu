@@ -1,0 +1,89 @@
+@CHARSET "UTF-8";
+
+.p {
+	
+	color: red;
+	font-size: 20px;
+}
+
+.q {
+	color: blue;
+	border-top-width: 15px;
+	border-style: inset;
+	border-color: red;
+	border-left-width: 10px;
+	border-bottom-width: 15px;
+	border-right-width: 10px;
+	
+}
+
+#id001 {
+	color: red; 
+	border-top-width: 15px;
+	border-style: inset;
+	border-color: yellow;
+	border-left-width: 10px;
+	border-bottom-width: 15px;
+	border-right-width: 10px;
+}
+
+#id002 {
+	border-top-width: 10px;
+	border-top-width: 10px;
+	border-style: dotted;
+	color: red;
+	border-color: blue;
+	border-left-width: 10px;
+	border-right-width: 10px;
+	border-bottom-width: 10px;
+}
+ #id003 {
+	color: red; 
+	border-top-width: 15px;
+	border-style: inset;
+	border-color: blue;
+	border-left-width: 10px;
+	border-bottom-width: 15px;
+	border-right-width: 10px;
+}
+h5 {
+	color: red;
+}
+
+div {
+	color: blue;
+	font-weight: 900; font-family 楷体;
+	font-style: italic;
+	font-style: italic;
+	font-size: 30px;
+	font-variant: small-caps;
+}
+
+span {
+	font-family: 黑体;
+	font-weight: bolder;
+	font-style: italic;
+	font-size: 30px;
+	text-align: left;
+	text-decoration: underline;
+}
+
+b {
+	font-size: 80%;
+}
+
+a:LINK {
+	color: red;
+}
+
+a:VISITED {
+	color: black;
+}
+
+a:ACTIVE {
+	color: blue
+}
+
+a:HOVER {
+	color: yellow;
+}
