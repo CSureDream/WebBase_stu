@@ -1,7 +1,6 @@
 @CHARSET "UTF-8";
 
 .p {
-	
 	color: red;
 	font-size: 20px;
 }
@@ -14,11 +13,10 @@
 	border-left-width: 10px;
 	border-bottom-width: 15px;
 	border-right-width: 10px;
-	
 }
 
 #id001 {
-	color: red; 
+	color: red;
 	border-top-width: 15px;
 	border-style: inset;
 	border-color: yellow;
@@ -37,8 +35,9 @@
 	border-right-width: 10px;
 	border-bottom-width: 10px;
 }
- #id003 {
-	color: red; 
+
+#id003 {
+	color: red;
 	border-top-width: 15px;
 	border-style: inset;
 	border-color: blue;
@@ -46,13 +45,15 @@
 	border-bottom-width: 15px;
 	border-right-width: 10px;
 }
+
 h5 {
 	color: red;
 }
 
 div {
+	font-family 楷体;
 	color: blue;
-	font-weight: 900; font-family 楷体;
+	font-weight: 900;
 	font-style: italic;
 	font-style: italic;
 	font-size: 30px;
