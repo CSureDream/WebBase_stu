@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script type="text/javascript">
+	//浏览器对象         列出浏览器插件     
+	function plugin() {
+		var len = navigator.plugins.length;
+		with (document) {
+			write("你的浏览器支持" + len + "种插件：<BR>");
+			write("<TABLE BORDER=0>")
+			write("<CAPTION>插件清单<CAPTION>");
+			write("<TR><TH><TH>name<TH>description<TH>name");
+			for (var i = 0; i < len; i++) {
+				write("<TR><TD>" + (i + 1) + "<TD>" + navigator.plugins[i].name
+						+ "<TD>" + navigator.plugins[i].description + "<TD>"
+						+ navigator.plugins[i].filename);
+			}
+		}
+	}
+	//窗口对象
+	function cfm() {
+		if (confirm("是否确定离开"))
+			window.close();
+		else
+			return false;
+	}
+</script>
+</head>
+<body>
+	<input type="button" value="插件" onclick="plugin()">
+	<input type="button" value="退出" onclick="cfm()">
+
+	<!-- 位置对象 location. -->
+	<input type="button" value="链接到sina"
+		onclick="location.href='http://www.sina.com.cn'">
+		<input type="button" value="重载" onclick="location.reload()">
+</body>
+</html>
