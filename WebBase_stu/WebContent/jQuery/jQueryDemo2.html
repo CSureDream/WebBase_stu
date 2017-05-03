@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script type="text/javascript" src="jquery-3.2.1.min.js"></script>
+<script type="text/javascript" src="jQuery.js"></script>
+</head>
+<body>
+	<form id="my_form" action="foo.php"></form>
+	<input type="button" value="attr" onclick="attrDemo()">
+	<p>
+		<b>Hello</b>
+	</p>
+	<input type="button" value="htmlText" onclick="htmlText()">
+	<p id="id01">ss</p>
+	<input type="button" value="append" onclick="appendDemo()">
+	<input type="button" value="prepend" onclick="prependDemo()">
+	<input type="button" value="after" onclick="afterDemo()">
+	<input type="button" value="before" onclick="beforeDemo()">
+	<hr>
+	<p id="id02">
+		<input type="text" /><input type="button" value="Go" />
+	</p>
+	<input type="button" value="clone" onclick="cloneDemo()">
+	<input type="button" value="替换标签" onclick="replace_withDemo()">
+	<hr />
+	<input type="button" value="wrap" onclick="wrapDemo()">
+	<input type="button" value="wrapInner" onclick="wrapInnerDemo()">
+	<ul>
+		<li class="fruit">Apple</li>
+		<li>Tomato</li>
+		<li class="fruit">Banana</li>
+		<li>Potato</li>
+	</ul>
+	<input type="button" value="remove1" onclick="removeDemo1()">
+	<input type="button" value="remove2" onclick="removeDemo2()">
+	<input type="button" value="清空" onclick="emptyDemo()">
+	<input id="id03"  type="button" value="清空1" >
+	<input id="btn" type="button" value="ready+bind" />
+	
+</body>
+</html>

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script type="text/javascript" src="jquery-3.2.1.min.js"></script>
+<script type="text/javascript" src="jQuery.js"></script>
+</head>
+<body>
+	<ul>
+       <li>Apple</li>
+       <li>Tomato</li>
+       <li>Banana</li>
+       <li>Potato</li>
+       <li>Orange</li>
+    </ul>
+	<input type="button" value="下标过滤" onclick="indexSelect()">
+	<input type="button" value="文本内容过滤" onclick="containSelect()">
+	 <li>Apple<p>p ss<span>ss</span></p></li>
+	<input type="button" value="包涵过滤" onclick="hasSelect()">
+	<hr>
+	<input id="ipt" type="text" class="cls_ipt" />
+	<input type="button" value="属性过滤" onclick="nameSelect()">
+	<form id="my_form">
+            <input type="text"/>
+            <input type="radio"/>
+            <input type="radio" checked="checked"/>
+            <input type="checkbox"/>
+            <input type="checkbox" checked="checked"/>
+     </form>
+	<input type="button" value="input选择器" onclick="inputSelect()">
+	<select id="sel" multiple="multiple">
+          <option value="0">苹果</option>
+          <option value="1" selected="selected">桔子</option>
+          <option value="2">荔枝</option>
+          <option value="3" selected="selected">葡萄</option>
+          <option value="4">香蕉</option>
+    </select>
+	<input type="button" value="select选择器" onclick="fSelect()">
+	<input type="button" value="表单选择器2" onclick="formSelect2()">
+	</body>
+</html>
